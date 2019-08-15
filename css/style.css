@@ -883,6 +883,10 @@ header {
     filter: brightness(100%);
 }
 
+.map_text {
+    clear: both;
+}
+
 .map_text a{
     padding-top: 50px;
     position: absolute;
@@ -1146,15 +1150,12 @@ header {
     }
 
     .digital_services .img_holder {
-        width: 230px;
-        margin-left: -60px;
+        margin-left: -25px;
+        width: 205px;
     }
 
-    .row .btn-holder {
-        float: right;
-        position: relative;
-        bottom: 90px;
-        left: 200px;
+    .digital_services .btn {
+        left: 55%;
     }
 
     .container_fluid {
@@ -1170,6 +1171,16 @@ header {
     
     .contact-col {
         height: 120px;
+        text-align: center;
+    }
+
+    .contact_section .container .icon_holder {
+        top: -25px;
+        left: 45%;
+    }
+
+    .contact_text {
+        margin: 0;
     }
 
     .digital_services {
@@ -1206,6 +1217,7 @@ header {
 
     .newsletter_section .container .btn_form {
         padding: 9px 20px;
+        margin-top: 10px;
         background-color: #323232;
         width: 100%;
     }
@@ -1237,10 +1249,6 @@ header {
 
     .portfolio_list li {
         padding: 30 15 0px;
-    }
-
-    .row .btn-holder {
-        left: 175px;
     }
 
     .digital_services .img_holder {
